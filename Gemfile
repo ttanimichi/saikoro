@@ -1,4 +1,16 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in saikoro.gemspec
+group :development, :test do
+  gem 'pry'
+  gem 'pry-doc'
+  gem 'pry-byebug'
+  gem 'binding_of_caller'
+  gem 'awesome_print'
+end
+
+group :test do
+  gem "minitest"
+  gem "minitest-power_assert"
+end
+
 gemspec
