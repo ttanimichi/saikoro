@@ -23,7 +23,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Saikoro.alphanumerics
+#=> "YMbx24GE"
+
+Saikoro.alphanumerics(length: 16)
+#=> "fAZHtI8bxifylKJf"
+```
 
 ## Development
 
