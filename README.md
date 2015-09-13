@@ -7,28 +7,32 @@ Random String generator.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'saikoro'
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install saikoro
+$ gem install saikoro
+```
 
 ## Usage
 
 ```ruby
-Saikoro.alphanumerics
-#=> "YMbx24GE"
+require 'saikoro'
 
-Saikoro.alphanumerics(length: 16)
-#=> "fAZHtI8bxifylKJf"
+Saikoro.alphanumerics #=> "50UbRceg"
+Saikoro.alphanumerics(length: 42) #=> "gYCEbZubZ1DZpk6Coda0yhFVFQCracACy6dppbwv8H"
+
+Saikoro.alphabets #=> "HmQosHQn"
+Saikoro.alphabets(length: 42) #=> "PmbmmJpYUyaTyYqVrNQhzXyDefErYewRhWPNFWIwjV"
+
+Saikoro.numbers #=> "98091246"
+Saikoro.numbers(length: 42) #=> "709136609569553516669729349123743566633712"
+
+Saikoro.ascii_printables #=> "Hh0)S|_<"
+Saikoro.ascii_printables(length: 42) #=> "+;U8-_nDV^&1M!'yKOqD)+(Ju:j`76@a:w-aAwe)]."
+
+Saikoro.lowercase_alphabets #=> "lsiveock"
+Saikoro.lowercase_alphabets(length: 42) #=> "vlwhgsnvyvxhvlstaqtpwfurnpqjpgiitsrweapehl"
+
+Saikoro.uppercase_alphabets #=> "SAXYNRLK"
+Saikoro.uppercase_alphabets(length: 42) #=> "IWQDNRXXARUKDPVMJBIOXQDRUMUPZWRTFRBNIEUYEK"
 ```
 
 ## Development
