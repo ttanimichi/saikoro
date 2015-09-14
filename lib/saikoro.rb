@@ -4,6 +4,7 @@ module Saikoro
   class << self
     table = {
       alphanumerics:       [*'a'..'z', *'A'..'Z', *'0'..'9'],
+      word_characters:     [*'a'..'z', *'A'..'Z', *'0'..'9', '_'],
       alphabets:           [*'a'..'z', *'A'..'Z'],
       lowercase_alphabets: [*'a'..'z'],
       uppercase_alphabets: [*'A'..'Z'],

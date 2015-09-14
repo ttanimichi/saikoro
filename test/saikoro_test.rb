@@ -6,6 +6,11 @@ class SaikoroTest < Minitest::Test
     assert { Saikoro.alphanumerics(length: 42) =~ /\A[0-9a-zA-Z]{42}\z/ }
   end
 
+  def test_alphanumerics
+    assert { Saikoro.word_characters =~ /\A[0-9a-zA-Z_]{8}\z/ }
+    assert { Saikoro.word_characters(length: 42) =~ /\A[0-9a-zA-Z_]{42}\z/ }
+  end
+
   def test_alphabets
     assert { Saikoro.alphabets =~ /\A[a-zA-Z]{8}\z/}
     assert { Saikoro.alphabets(length: 42) =~ /\A[a-zA-Z]{42}\z/ }

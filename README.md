@@ -28,6 +28,9 @@ Saikoro.numbers(length: 42) #=> "709136609569553516669729349123743566633712"
 Saikoro.ascii_printables #=> "Hh0)S|_<"
 Saikoro.ascii_printables(length: 42) #=> "+;U8-_nDV^&1M!'yKOqD)+(Ju:j`76@a:w-aAwe)]."
 
+Saikoro.word_characters #=> "z3_SJNhG"
+Saikoro.word_characters(length: 42) #=> "GKW_yEUWFdFoYl767_rAtTI2l3WVFimSCayTA0L0S2"
+
 Saikoro.lowercase_alphabets #=> "lsiveock"
 Saikoro.lowercase_alphabets(length: 42) #=> "vlwhgsnvyvxhvlstaqtpwfurnpqjpgiitsrweapehl"
 
