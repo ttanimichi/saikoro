@@ -1,10 +1,9 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'saikoro/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "saikoro"
-  spec.version       = Saikoro::VERSION
+  spec.version       = "0.3.0"
   spec.authors       = ["Tsukuru Tanimichi"]
   spec.email         = ["ttanimichi@hotmail.com"]
 

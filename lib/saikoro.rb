@@ -1,5 +1,3 @@
-require "saikoro/version"
-
 module Saikoro
   class << self
     table = {
